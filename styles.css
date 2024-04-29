@@ -1,19 +1,22 @@
-body, html {
-    height: 100%;
-    margin: 0;
-    font-family: Arial, sans-serif;
+.blueBackground {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
-#welcomeScreen {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-button {
+#checkInBtn, #checkOutBtn {
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
     padding: 10px 20px;
-    font-size: 18px;
+    margin: 10px;
     cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
 }
+
+#checkInBtn:hover, #checkOutBtn:hover {
+    background-color: #f0f0f0;
+}
+
